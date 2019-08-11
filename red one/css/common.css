@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /* 
 .swiper-container {
@@ -78,7 +82,6 @@ body {
 
 .nav a {
   display: inline-block;
-  text-decoration: none;
   padding: 11px 18px;
   color: #898989;
 }
