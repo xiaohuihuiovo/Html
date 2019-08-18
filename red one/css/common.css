@@ -18,6 +18,18 @@ a {
   text-decoration: none;
 }
 
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
 
 /* 
 .swiper-container {
@@ -130,7 +142,7 @@ a {
 
 .footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .num {
