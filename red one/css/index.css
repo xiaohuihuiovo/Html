@@ -19,12 +19,20 @@
    flex: 32%;
    border: 1px solid #EFEFEF;
    margin: 5px;
-   ;
  }
  
  .appreciate img {
    width: 380px;
    height: 280px;
+   transition: all 1s;
+ }
+ 
+ .appreciate .img {
+   overflow: hidden;
+ }
+ 
+ .appreciate img:hover {
+   transform: scale(1.1);
  }
  
  .introduct {
