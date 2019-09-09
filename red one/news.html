@@ -9,10 +9,13 @@
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/swiper.min.css">
   <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="./css/news.css">
+  <link rel="stylesheet" href="./css/swiper2.css">
   <script src="./js/jquery.min.js"></script>
   <script src="./js/common.js"></script>
   <script src="./js/swiper.min.js"></script>
   <script src="./js/swiper.js"></script>
+  <script src="./js/classics.js"></script>
 
 
   <body>
@@ -55,6 +58,38 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
+      <div class="news w">
+        <div class="head">
+          <div class="left color">
+            <h1>NEWS CENTER</h1>
+            <h1>新闻中心</h1>
+          </div>
+          <div class="right color">
+            <a href="javascript:;" class="arrow">公司新闻 &nbsp;Company  </a>
+            <a href="javascript:;">行业新闻 &nbsp;Industry</a>
+            <a href="javascript:;">花艺知识 &nbsp;Knowledge</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
     </div>
 
     <div class="footer">
@@ -79,6 +114,18 @@
         <img src="./img/footer.jpg" alt="">
       </div>
     </div>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 2000,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
   </body>
 
 </html>

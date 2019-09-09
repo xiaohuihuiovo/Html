@@ -1,59 +1,3 @@
-.color {
-  background-color: #F2F2F2;
-}
-
-.classics {
-  height: 1470px;
-  margin-top: 50px;
-}
-
-.classics .head {
-  clear: both;
-  width: 100%;
-  height: 170px;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.head .left {
-  float: left;
-  width: 460px;
-  padding: 40px 20px 45px 0;
-  margin-right: 10px;
-}
-
-.head .left h1 {
-  text-align: right;
-  color: #868686;
-  font-weight: 400;
-  font-size: 36px;
-}
-
-.head .right {
-  float: left;
-  width: 635px;
-  padding: 40px 0 45px 45px;
-  margin-left: 10px;
-}
-
-.head .right a {
-  display: block;
-  text-align: left;
-  color: #868686;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.head .right a {
-  position: relative;
-}
-
-.head .right .arrow {
-  color: #d3c2a6;
-}
-
-
 /* .head .right .arrow {
   position: absolute;
   left: 0;
@@ -104,7 +48,8 @@
   margin: 10px 0;
 }
 
-.second .info .one {
+.second .info .one,
+.second .info .four {
   /* display: inline-block; */
   width: 260px;
   height: 180px;
@@ -112,7 +57,8 @@
   overflow: hidden;
 }
 
-.second .info .one a {
+.second .info .one a,
+.second .info .four a {
   padding: 3px;
   text-align: center;
   font-size: 28px;
@@ -132,4 +78,18 @@
 .second .info .two img {
   width: 100%;
   height: 100%;
+}
+
+.second .info .three .img {
+  width: 285px;
+  height: 180px;
+}
+
+.second .info .three img {
+  width: 100%;
+  height: 100%;
+}
+
+.second .info .four a {
+  margin-left: 25px;
 }
