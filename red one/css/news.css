@@ -1,5 +1,5 @@
 .news {
-  height: 1470px;
+  /* height: 1470px; */
   margin-top: 50px;
 }
 
@@ -9,4 +9,22 @@
   height: 170px;
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.container .center {
+  position: relative;
+  margin-top: 10px;
+  height: 685px;
+  border: 1px solid #000;
+}
+
+.center .info {
+  position: absolute;
+  right: -170px;
+  top: 105px;
+  width: 400px;
+  height: 475px;
+  background-color: #000;
+  opacity: 0.3;
+  z-index: 3;
 }
