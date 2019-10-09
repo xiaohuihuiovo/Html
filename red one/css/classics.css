@@ -59,7 +59,7 @@
 
 .second .info .one a,
 .second .info .four a {
-  padding: 3px;
+  padding: 2px 3px 3px 3px;
   text-align: center;
   font-size: 28px;
   color: #808080;
